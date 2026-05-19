@@ -1,0 +1,37 @@
+body {
+    font-family: Arial; 
+    background-color: #ffffff; 
+}
+
+.navbar {
+    background-color: #003366 !important; 
+}
+
+.navbar-brand strong {
+    color: #ffffff; 
+    font-size: 24px; 
+}
+
+.nav-link {
+    color: #ffffff; 
+}
+
+.nav-link:hover{
+    color: #00aaff;     
+    font-weight: bold;
+}
+
+.carousel-img {
+    height: 450px; 
+    object-fit: cover;
+}
+
+.card {
+    border-radius: px; 
+}
+
+.card-img-custom {
+    height: 250px; 
+    width: 100%;
+    object-fit: cover;
+}
