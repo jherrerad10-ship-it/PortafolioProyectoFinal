@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mí</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><strong>PORTAFOLIO</strong></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="menuNavegacion">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="desarrollo.html">Desarrollo Humano</a></li>
+                    <li class="nav-item"><a class="nav-link" href="meto.html">Metodología de la Investigación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="conta.html">Contabilidad 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="logica.html">Lógica de Sistemas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="intro.html">Introducción a los Sistemas de Cómputo</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="carruselPortafolio" class="carousel slide shadow-sm" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselPortafolio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carruselPortafolio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carru3.png" class="d-block w-100 carousel-img" alt="Banner Mi Trabajo">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carru1.png" class="d-block w-100 carousel-img" alt="Banner Mis Habilidades">
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselPortafolio" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselPortafolio" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </header>
+
+    <main class="container mt-5 mb-5">
+        
+        <section class="text-center mb-5 bg-white p-5 rounded shadow-sm border">
+            <h2 class="mb-3">Joshua Daniel Herrera de Paz</h2>
+            <p class="lead text-muted">Soy estudiante de Ingeniería en Sistemas, actualmente cursando mi primer semestre. A mis 18 años, he descubierto que me apasiona la tecnología, entender cómo funciona el software y romperme la cabeza resolviendo problemas de lógica.</p>
+            <p class="text-muted">Me considero alguien con mucha iniciativa, que se adapta rápido y que disfruta haciendo las cosas bien. Mi objetivo no es solo aprender a programar, sino también saber trabajar con otras personas y aportar ideas frescas en lo que hago.</p>
+            <h4>"Mi mayor fuerte es querer seguir aprendiendo."</h4>
+        </section>
+
+        <h2 class="text-center mb-4 border-bottom pb-2">Perfil y Habilidades</h2>
+        
+        <div class="row align-items-stretch">
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow h-100 border-primary">
+                    <img src="img/yo.jpeg" class="card-img-top card-img-custom" alt="Joshua Herrera - Foto Personal" style="object-fit: cover; height: 300px;">
+                    <div class="card-body d-flex flex-column text-center">
+                        <h5 class="card-title text-primary fw-bold mb-3">Joshua Herrera</h5>
+                        <p class="card-text text-muted">Estudiante de Ingeniería en Sistemas y siempre buscando nuevos retos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <img src="img/visual.jfif" class="card-img-top card-img-custom" alt="Logo de Visual Studio Code" style="object-fit: cover; height: 200px;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-primary fw-bold mb-3">Visual Studio Code</h5>
+                        <p class="card-text text-muted mb-4">Escribiendo código, armando mis páginas web y probando cosas nuevas. Poco a poco me voy sintiendo más ágil usándolo.</p>
+                        
+                        <div class="mt-auto">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small fw-bold text-secondary">Nivel</span>
+                                <span class="small fw-bold text-primary">50%</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <img src="img/python.png" class="card-img-top card-img-custom" alt="Logo de Python" style="object-fit: cover; height: 200px;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-primary fw-bold mb-3">Python</h5>
+                        <p class="card-text text-muted mb-4">Fue mi puerta de entrada a la programación. Me gusta usarlo para resolver problemas de lógica; es increíble ver cómo unas pocas líneas pueden hacer tantas cosas.</p>
+                        
+                        <div class="mt-auto">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small fw-bold text-secondary">Nivel</span>
+                                <span class="small fw-bold text-primary">40%</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <img src="img/equipo.jfif" class="card-img-top card-img-custom" alt="Trabajo en equipo" style="object-fit: cover; height: 200px;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-primary fw-bold mb-3">Trabajo en Equipo</h5>
+                        <p class="card-text text-muted mb-4">Creo que dos cabezas piensan mejor que una. Me gusta colaborar con mis compañeros, escuchar sus ideas y organizarnos bien para que los proyectos salgan buenos.</p>
+                        
+                        <div class="mt-auto">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small fw-bold text-secondary">Nivel</span>
+                                <span class="small fw-bold text-primary">80%</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <img src="img/individual.jpg" class="card-img-top card-img-custom" alt="Trabajo individual" style="object-fit: cover; height: 200px;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-primary fw-bold mb-3">Trabajo Individual</h5>
+                        <p class="card-text text-muted mb-4">Cuando toca concentrarse, me pongo los audífonos y le doy con todo. Soy bastante organizado y disfruto el reto de investigar por mi cuenta hasta encontrar la solución.</p>
+                        
+                        <div class="mt-auto">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small fw-bold text-secondary">Nivel</span>
+                                <span class="small fw-bold text-primary">80%</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <img src="img/ingles.jpeg" class="card-img-top card-img-custom" alt="Idioma Inglés" style="object-fit: cover; height: 200px;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-primary fw-bold mb-3">Inglés</h5>
+                        <p class="card-text text-muted mb-4">Me defiendo bastante bien. Lo uso muchísimo para leer documentación, entender los errores de código, y ver tutoriales que me ayudan a seguir avanzando.</p>
+                        
+                        <div class="mt-auto">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="small fw-bold text-secondary">Nivel</span>
+                                <span class="small fw-bold text-primary">65%</span>
+                            </div>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <h5 class="text-uppercase mb-3">Joshua Daniel Herrera De Paz</h5>
+            <p class="mb-1"><strong>Correo:</strong> jherrerad10@miumg.edu.gt</p>
+            <p class="mb-0"><strong>Celular:</strong> +502 49779241</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
